@@ -42,7 +42,7 @@ def sheets():
         copiar_valores(input_file)
         
         #Abrir a planilha do Google Sheets no navegador padrão
-        url = 'https://docs.google.com/spreadsheets/d/108_GQeqU-4AVT2g02XXd9iolNdviCH7QzJ35FP92u9Q/edit?gid=1388688123#gid=1388688123'
+        url = 'Google sheet que vai o relatório'
         webbrowser.open(url)
         #Esperar a página carregar (ajuste o tempo conforme necessário)
         time.sleep(13)
